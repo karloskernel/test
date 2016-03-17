@@ -47,3 +47,7 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+function addCoso(){
+    document.getElementById('log').innerHTML = document.getElementById('counter').value++;
+}
